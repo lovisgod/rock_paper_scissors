@@ -1,0 +1,74 @@
+body{
+    text-align:center;
+    background-color: gray;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+.container{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: greenyellow;
+    background-color: blueviolet;
+    width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+    vertical-align: middle;
+    text-shadow: 2px 1px red;
+    border-radius: 5px;
+}
+
+.color_1{
+    color: gold;
+    text-shadow: 2px 1px red;
+}
+
+h4{
+    color: red;
+}
+
+#letstart{
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 180px;
+    margin: 0 auto;
+    color: #fff;
+    border: 1px solid #ccc;
+    outline: 0;
+    border-radius: 5px;
+    animation-name: color-transition;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    cursor: pointer;
+    box-shadow: 0 6px blue;
+    vertical-align: middle;
+}
+
+@keyframes color-transition{
+    25% {
+        background-color: #FF5722;
+        color: #03A9F4;
+    }
+    50% {
+        background-color: #03A9F4;
+        color: #FF5722;
+    }
+    75% {
+        background-color: #FFEB3B;
+        color: #03A9F4;
+    }
+}
